@@ -1,0 +1,28 @@
+{
+	"name": "frontend-workshop-chat",
+	"private": true,
+	"description": "Chat app using PubNub",
+	"version": "1.0.0",
+	"license": "GPL-3.0",
+	"author": "Constantine Genchevsky",
+	"main": "build/index.html",
+	"keywords": [
+		"chat",
+		"webapp",
+		"workshop",
+		"javascript"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"neutrino": "8.3.0",
+		"@atomspace/eslint": "2.3.0",
+		"@neutrinojs/web": "8.3.0",
+		"@neutrinojs/jest": "8.3.0"
+	},
+	"scripts": {
+		"start": "neutrino start",
+		"build": "neutrino build",
+		"eslint": "neutrino lint --fix",
+		"test": "neutrino test --verbose --watchAll --noStackTrace --silent"
+	}
+}
