@@ -12,7 +12,12 @@
 		"workshop",
 		"javascript"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"jquery": "3.3.1",
+		"pubnub": "4.21.7",
+		"materialize": "1.0.0",
+		"materialize-css": "1.0.0"
+	},
 	"devDependencies": {
 		"neutrino": "8.3.0",
 		"@atomspace/eslint": "2.3.0",
